@@ -1,0 +1,230 @@
+/* 
+    Created on : 29-nov-2014, 18:57:20
+    Author     : MARTIN
+*/
+
+@font-face{
+    font-family: 'enlaces';
+    src: url('../fuentes/fontlinks.ttf');
+}
+
+/* Reset de estilos para los elementos html marco el final de las acciones */
+/* Instrucciones extraidas de http://html5doctor.com/html-5-reset-stylesheet/ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+/* Final de reset html */
+
+body{
+    background-image: url('../img/fondo2.jpeg');
+    background-size: cover;
+}
+
+header {
+    height: 100px;
+    background-color: white;
+    opacity: 0.9;
+    border-bottom: red 1px solid;
+}
+
+#contains {
+    margin: 0 auto;
+    min-width: 955px;
+    width: 0.9516%;
+    height: 570px;
+    background-color: rgba(255,255,255,0.8); 
+}
+
+footer{
+    background-color: #d5d8d8;
+    height: 150px;
+    border-top: red 1px solid;
+}
+
+/*Contenido de la cabecera*/
+
+#containsheader{
+    margin: 0 auto;
+    min-width: 955px;
+    width: 0.9516%;
+    height: 100px;
+}
+
+#logo{
+    height: 80%;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+#enlaces {
+    display: inline;
+    margin-left: 250px;
+}
+
+.navigation {
+    margin-left: 18px;
+    text-decoration: none;
+    font-family: enlaces;
+    color: red;
+    font-size: 20px;
+}
+
+/* Estilo del contenido */
+
+#productbox{
+    width: 645px;
+    height: 97%;
+    background-color: rgba(240,240,240,0.6);
+    float: left;
+    margin-top: 7px;
+    margin-left: 5px;
+    overflow-y: scroll;
+}
+
+#parameterbox {
+    width: 295px;
+    height: 97%;
+    background-color: rgba(240,240,240,0.6);
+    float: right;
+    margin-top: 7px;
+    margin-right: 5px;
+}
+
+input[type="range"]{
+    width: 75px;
+}
+
+#textoPrecio{
+    width: 50px;
+}
+
+.imagenfront{
+    height: 90px;
+}
+
+.anunciofront{
+    width: 250px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.right{
+    text-align: right;
+}
+
+#ptd{
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:#333333;
+}
+
+a:hover{
+    color:#00cccc;
+}
+
+footer>p{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    line-height: 100px;
+    font-family: enlaces;
+}
+
+
+

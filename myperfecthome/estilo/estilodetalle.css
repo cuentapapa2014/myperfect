@@ -1,0 +1,87 @@
+/* 
+    Created on : 09-dic-2014, 17:29:30
+    Author     : MARTIN
+*/
+
+#tituloAnuncio{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#galeria{
+    width: 400px;
+    float: left;
+    margin-left: 30px;
+}
+
+#detallesanuncio{
+    width: 400px;
+    float: right;
+    margin-right: 30px;
+}
+
+.imggaleria{
+    height: 200px;
+}
+
+.parrafodetalle{
+    font-size: 28px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+#descripcionAnuncio{
+    float: left;
+}
+
+#spanas{
+    margin-left: 250px;
+}
+#spancalle{
+    margin-left: 180px;
+}
+#spanhab{
+    margin-left: 172px;
+}
+#spanloc{
+    margin-left: 125px;
+}
+#spanmetros{
+    margin-left: 156px;
+}
+#spanoperacion{
+    margin-left: 145px;
+}
+#spanprecio{
+    margin-left: 135px;
+    color: red;
+}
+#spanproducto{
+    margin-left: 130px;
+}
+#spanprov{
+    
+}
+
+#pdescripcion{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#spannombre{
+    margin-left: 100px;
+}
+
+#spanapellidos{
+    margin-left: 85px;
+}
+
+#spantfn{
+    margin-left: 94px;
+}
+
+#spanmail{
+    margin-left: 118px;
+}

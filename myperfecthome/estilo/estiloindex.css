@@ -1,0 +1,56 @@
+
+/* 
+    Created on : 09-dic-2014, 0:41:39
+    Author     : MARTIN
+*/
+
+#tipoOperacionAnuncio{
+    width: 170px;
+    margin-left: 50px;
+}
+
+#tipoProductoAnuncio{
+    width: 170px;
+    margin-left: 33px;
+}
+
+#precioMaximo{
+    width: 100px;
+    margin-left: 84px;
+}
+
+#textoLocalidad{
+    width: 170px;
+    margin-left: 48px;
+}
+
+#textoProvincia{
+    width: 170px;
+    margin-left: 49px;
+}
+
+#textoMetros{
+    width: 170px;
+    margin-left: 65px;
+}
+
+#textoHabitaciones{
+    width: 170px;
+    margin-left: 27px;
+}
+
+#tituloFiltro{
+    height: 30px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    background-color: red;
+    margin-bottom: 15px;
+}
+
+#botonFiltrar{
+    margin-top:20px;
+    margin-right: 8px;
+    float: right;
+}
+

@@ -1,0 +1,203 @@
+/* 
+    Created on : 01-dic-2014, 20:44:31
+    Author     : MARTIN
+*/
+
+body{
+    margin: 0px;
+}
+
+header{
+    height: 100px;
+    background-color: #ccccff;
+}
+
+#contenidoheader {
+    width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 100px;
+}
+
+#anuncios{
+    width: 900px;
+    height: 140px;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+}
+
+#tablaresultados{
+    margin: 0 auto;
+    width: 800px;
+}
+
+.tdanunciante{
+    font-size: 18px;
+}
+
+tr:nth-child(odd){
+    background-color: #ccccff;
+}
+
+tr>th{
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 10px;
+    background-color: #9999ff;
+}
+
+#filaanunciante>td{
+    width: 150px;
+    text-align: center;
+}
+
+h3{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-size: 25px;
+}
+
+#contenido{
+    width: 955px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+}
+
+label, input, select{
+    margin-bottom: 17px;
+    margin-left: 5px;
+}
+
+label{
+    font-size: 17px;
+    margin-left: 30px;
+}
+
+input {
+    font-size: 17px;
+    margin-left: 5px;
+}
+
+select {
+    font-size: 17px;
+}
+
+#nifAnuncio{
+    width: 90px;
+    margin-left: 39px;
+    margin-top: 15px;
+}
+
+#nombreAnuncio{
+    width: 150px;
+    margin-left: 11px;
+}
+
+#apellidosAnuncio{
+    width: 322px;
+}
+
+#telefonoAnuncio{
+    width: 150px;
+}
+
+#emailAnuncio{
+    margin-left: 39px;
+    width: 322px;
+}
+
+#tituloAnuncio {
+    width: 500px;
+    margin-right: 70px;
+    margin-top: 15px;
+}
+
+#precioAnuncio {
+    width: 70px;
+    margin-left: 87px;
+    margin-right: 31px;
+}
+
+#tipoProductoAnuncio{
+    margin-left: 15px;
+}
+
+#metrosAnuncio {
+    width: 70px;
+    margin-right: 2px;
+}
+
+#habitacionesAnuncio{
+    width: 35px;
+}
+
+#aseosAnuncio{
+    width: 35px;
+    margin-left: 8px;
+}
+
+#descripcionAnuncio {
+    width: 500px;
+    height: 100px;
+    margin: 0px;
+    margin-left: 145px;
+    margin-bottom: 15px;
+}
+
+#calleAnuncio{
+    width: 250px;
+    margin-left: 36px;
+}
+
+#numeroAnuncio{
+    width: 30px;
+}
+
+#plantaAnuncio{
+    width: 30px;
+}
+
+#localidadAnuncio{
+    width: 250px;
+}
+
+#provinciaAnuncio {
+    width: 119px;
+}
+
+#cpAnuncio{
+    width: 50px;
+}
+
+input[type="submit"], input[type="reset"]{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 5px;
+    margin-left: 760px;
+    width: 70px;
+}
+
+.oculto{
+    display: none;
+}
+
+#imagenesAnuncio{
+    width: 200px;
+    height: 400px;
+    margin-right: 15px;
+    margin-top: 15px;
+    border: solid black 1px;
+    float:right;
+    overflow-y: scroll;
+}
+
+table{
+    width: 100%;
+}
+
+#cabeceraImagenes{
+    width: 200px;
+}

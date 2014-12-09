@@ -1,0 +1,37 @@
+
+/* 
+    Created on : 08-dic-2014, 15:42:14
+    Author     : MARTIN
+*/
+
+#usuarios{
+    width: 900px;
+    height: 140px;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+}
+
+#tablaresultados{
+    margin: 0 auto;
+}
+
+.tdanunciante{
+    font-size: 18px;
+}
+
+tr:nth-child(odd){
+    background-color: #ccccff;
+}
+
+tr>th{
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 10px;
+    background-color: #9999ff;
+}
+
+#filaanunciante>td{
+    width: 150px;
+    text-align: center;
+}
+
